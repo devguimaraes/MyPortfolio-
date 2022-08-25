@@ -1,3 +1,5 @@
+/* import { BrowserRouter, Switch, Route } from 'react-router-dom'; */
+
 import Biografia from '../Components/Bio';
 import Contatos from '../Components/Contatos';
 import Footer from '../Components/Footer/Footer';

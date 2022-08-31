@@ -7,6 +7,7 @@ import Home from '../assets/Components/Home';
 import Projetos from '../assets/Components/Projetos';
 import Skills from '../assets/Components/Skills';
 import SobreTitulo from '../assets/Components/SobreTitulos';
+import Page404 from '../assets/pages/page404';
 
 const Rotas = function Rotas() {
 	return (
@@ -20,6 +21,7 @@ const Rotas = function Rotas() {
 				<Route path="/projetos" element={<Projetos />} />
 				<Route path="/skills" element={<Skills />} />
 				<Route path="/footer" element={<Footer />} />
+				<Route path="*" element={<Page404 />} />
 			</Routes>
 		</BrowserRouter>
 	);

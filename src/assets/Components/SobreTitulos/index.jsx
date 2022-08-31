@@ -12,14 +12,27 @@ function SobreTitulo() {
 	return (
 		<div key={user?.id} className="w-screen p-12">
 			<h1 className="text-2xl text-center text-white">{user?.name}</h1>
-			<h2 className="text-xl text-center text-gray-200 mb-8">
+			<h2 className="text-xl text-center text-paragrafo mb-8">
 				Desenvolvedor Front-End
 			</h2>
 			<div className="w-full flex  justify-between gap-4">
 				<Buttons cor="#00DF5E" border="none">
-					Curriculo CV
+					<a
+						href="./src/data/Bruno-Guimaraes.pdf"
+						download="Bruno-Guimaraes.pdf"
+					>
+						Curriculo CV
+					</a>
 				</Buttons>
-				<Buttons>Entre em Contato</Buttons>
+				<Buttons>
+					<a
+						href="https://www.linkedin.com/in/bcguimaraes/"
+						rel="noreferrer"
+						target="_blank"
+					>
+						Entre em Contato
+					</a>
+				</Buttons>
 			</div>
 		</div>
 	);

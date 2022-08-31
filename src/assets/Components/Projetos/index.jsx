@@ -12,7 +12,9 @@ function Projetos() {
 
 	return (
 		<div className="w-full box-border">
-			<h2 className="text-2xl my-10 text-center text-white">Projetos</h2>
+			<h2 className="text-2xl my-10 text-center text-white" id="projetos">
+				Projetos
+			</h2>
 			<ul key={user.id} className="flex flex-wrap justify-evenly">
 				{user.map((elemento) => (
 					<div

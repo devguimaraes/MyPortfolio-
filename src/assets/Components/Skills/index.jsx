@@ -1,7 +1,10 @@
 function Skills() {
 	return (
 		<div className="w-full">
-			<h2 className="text-2xl block w-full my-10 text-center text-white">
+			<h2
+				id="skills"
+				className="text-2xl block w-full my-10 text-center text-white"
+			>
 				Minhas Skills
 			</h2>
 			<div className="flex flex-wrap justify-around lg:w-4/5 lg:mx-auto">

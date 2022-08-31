@@ -3,7 +3,10 @@ import { FaSitemap, FaMobile, FaGoogle } from 'react-icons/fa';
 function Servicos() {
 	return (
 		<div>
-			<h2 className="text-2xl block w-full my-10 text-center text-white">
+			<h2
+				id="servicos"
+				className="text-2xl block w-full my-10 text-center text-white"
+			>
 				Serviços
 			</h2>
 			<div className="w-full flex flex-wrap justify-evenly text-center">

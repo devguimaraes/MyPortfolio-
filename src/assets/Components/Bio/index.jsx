@@ -16,7 +16,9 @@ function Biografia() {
 					src="https://embed.lottiefiles.com/animation/116528"
 				/>
 			</div>
-			<h2 className="text-2xl mb-2 text-center text-white">Sobre</h2>
+			<h2 id="sobre" className="text-2xl mb-2 text-center text-white">
+				Sobre
+			</h2>
 			<p className="text-center text-sm font-normal px-5 text-paragrafo">
 				{user?.bio}
 			</p>

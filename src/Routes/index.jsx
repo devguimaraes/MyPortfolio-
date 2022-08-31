@@ -13,7 +13,7 @@ const Rotas = function Rotas() {
 	return (
 		<BrowserRouter>
 			<Routes>
-				<Route path="/" element={<Home />} />
+				<Route path="/" exact element={<Home />} />
 				<Route path="/header" element={<Header />} />
 				<Route path="/sobretitulo" element={<SobreTitulo />} />
 				<Route path="/bio" element={<Biografia />} />

@@ -14,13 +14,7 @@ const Rotas = function Rotas() {
 		<BrowserRouter>
 			<Routes>
 				<Route path="/" exact element={<Home />} />
-				<Route path="/header" element={<Header />} />
-				<Route path="/sobretitulo" element={<SobreTitulo />} />
-				<Route path="/bio" element={<Biografia />} />
-				<Route path="/contatos" element={<Contatos />} />
-				<Route path="/projetos" element={<Projetos />} />
-				<Route path="/skills" element={<Skills />} />
-				<Route path="/footer" element={<Footer />} />
+
 				<Route path="*" element={<Page404 />} />
 			</Routes>
 		</BrowserRouter>
